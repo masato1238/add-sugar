@@ -767,3 +767,73 @@ a {
     padding: 18px 24px;
   }
 }
+
+
+/* ============================================================
+   MENU LIST (追加スタイル)
+   ============================================================ */
+.menu-list-block {
+  margin-top: var(--sp-lg);
+  padding-top: var(--sp-lg);
+  border-top: 1px solid var(--line);
+}
+
+.menu-list-title {
+  font-family: var(--font-serif-en);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: var(--sp-md);
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.menu-list-time {
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: var(--sub);
+  text-transform: none;
+  font-family: var(--font-serif-ja);
+  font-weight: 300;
+}
+
+.menu-list {
+  display: grid;
+  gap: 0;
+}
+
+.menu-list-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--text);
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+  gap: 16px;
+}
+
+.menu-list-row span:first-child {
+  color: var(--text);
+}
+
+.menu-list-row span:last-child {
+  color: var(--accent);
+  font-family: var(--font-serif-en);
+  font-size: 13px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.menu-list-note {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--sub);
+  line-height: 1.9;
+  margin-top: 14px;
+  opacity: 0.8;
+}
